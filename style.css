@@ -1,0 +1,166 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:rgb(58, 196, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+    text-shadow: 1px 1px 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input_currency{
+    background-color: red;
+    border: black;
+    margin: .2em 0;
+    padding: 1em ;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px #000;
+
+}
+
+.input_currency form input {
+    background-color: #fff;
+    height: 2.2rem;
+    width: 25rem;
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 0.185em;
+    border:  1px solid rgb(252, 251, 251);
+}
+
+.input_currency form input :focus{
+    box-shadow: 1px 1px 15px #000 inset;
+    outline: none;  
+}
+
+.results{
+    background-color: #00cec9;
+    width: 100%;
+    height: auto;
+    padding: 0.1em 0.4em;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 15px 3px #2d3436;
+}
+
+.results p{
+    border: 2px solid whitesmoke;
+    padding: 0.2em;
+    width: 0.3rem 0;
+    margin: 0.2em 0;
+    color: #000;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 5px #fff;
+    
+}
+
+.results p:nth-child(1){
+    background-color: rgb(231, 210, 210);
+}
+
+.results p:nth-child(2){
+    background-color: whitesmoke;
+}
+
+.results p:nth-child(3){
+    background-color: rgb(231, 210, 210);
+}
+
+.results p:nth-child(4){
+    background-color: whitesmoke;
+}
+
+.results p:nth-child(5){
+    background-color: rgb(231, 210, 210);
+}
+
+.results p:nth-child(6){
+    background-color: whitesmoke;
+}
+
+.results p:nth-child(7){
+    background-color: rgb(231, 210, 210);
+}
+
+.results p:nth-child(8){
+    background-color: whitesmoke;
+}
+.results p:nth-child(9){
+    background-color: rgb(231, 210, 210);
+}
+
+.results p:nth-child(10){
+    background-color: whitesmoke;
+
+}
+
+/*-------------Nevigation-------------*/
+
+@media(max-width: 600px){
+    .input_currency form input {
+        background-color: #fff;
+        height: 2.2rem;
+        width: 18.7rem;
+        padding: 0.3rem;
+        text-align: center;
+        font-size: 1.4em;
+        border-radius: 0.185em;
+        border:  1px solid rgb(252, 251, 251);
+    }
+    
+    .input_currency form input :focus{
+        box-shadow: 1px 1px 15px #000 inset;
+        outline: none;  
+    }
+    
+    .results{
+        background-color: #00cec9;
+        width: 21rem;
+        height: auto;
+        padding: 0.1em 0.4em;
+        border-radius: 0.5em;
+        box-shadow: 1px 1px 15px 3px #2d3436;
+    }
+    h1{
+        text-transform: uppercase;
+        margin-top: 0.7rem;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .input_currency{
+        background-color: red;
+        border: black;
+        font-size: 15px;
+        margin: .2em 0;
+        padding: 1em ;
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 1px #000;
+    
+    }
+}
+
+
+/*-------------Footer-------------*/
+
+.footer{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
